@@ -1,0 +1,431 @@
+/*--Vista Computador--*/
+@media (min-width: 960px) {
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #F86F03;
+}
+
+/*--menu--*/
+.menu{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: space-between;
+    top: 0px;
+    position: absolute;
+    left: 150Px;  
+}
+ul{
+    list-style-type:none;
+    display: flex;
+}
+.item_de_menu{
+    padding: 40px;
+    color: #FFF6F4;
+    text-transform: uppercase;
+}
+.item_de_menu :hover{
+  background-color:  #FFF6F4;
+  color: #F86F03;
+  border-radius: 45px;
+  width: 10%;
+  height: 5%;
+}
+
+/*---logo--*/
+.logo{
+    width: 115px;
+    height: 145px;
+    background-color:#F86F03;
+    border-radius: 100%;
+}
+
+/*----bucador--*/
+.buscador{
+    position: absolute;
+    padding: 5px;
+    left: 950px;
+    top: 70px;
+}
+.buscador input{
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px ;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.50s ease;
+}
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #F86F03;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color:#FFF6F4;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.buscador:hover input{
+    width: 240px;
+}
+.buscador input:focus{
+    width: 240px;
+}
+
+/* ---- section video ---*/
+.cont-principal{
+    width: 100%;
+    background-color: #8a03f8;
+}
+.video{
+    width: 90%;
+    border-radius: 45px;
+    border-color: #540375;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+.conte{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 110%;
+    text-align: center;
+    font-weight: 500;
+    background-color: #FFF6F4;
+    color: #421a86;
+    font-size: 35px;
+}
+.titulo_vid{
+    font-size: 45px;
+    color: #EEEDEC;
+    position: absolute;
+    margin: 20px;
+    top: 35%;
+    left: 20px;
+}
+.boton_vid{
+    top: 123%;
+    position: absolute;
+    margin-left: 600px;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    color: #FFF6F4;
+    background-color: #F86F03;
+}
+.bot :hover{
+    background-color: #FFF6F4;
+    color: #F86F03;
+}
+
+/*----- section div-----*/
+.tipos{
+    margin: 20px;
+    padding: 10px;
+   width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#F86F03 ; 
+}
+.tipo_e{
+    padding: 10px;
+    width: 250px;
+    height: 290px;
+    border-radius: 15px;
+}
+.sub{
+    padding: 5px;
+    margin: 0px;
+    font-size: 25px;
+    color: #FFF6F4;
+    align-items: center;
+}
+.conte_tipos :hover{
+    background-color: #FFF6F4;
+    color: #F86F03;
+    border-radius: 25px;
+}
+
+/*--------section tera-----------*/
+.coco{
+    position: absolute;
+    width: 99%;
+    top: 300%;
+    font-weight: 500;
+    background-color: #540375;
+}
+.tera_titu{
+    
+    font-size: 55px;
+    color: white;
+    position: absolute;
+    margin-left: 80px;
+    top: 205%;
+    background-color: #131928;
+}
+.tera_cont{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    margin: 30px;
+    overflow: hidden; 
+}
+.tera{
+    width: 100%;
+    height: 650px;
+}
+
+
+
+/*------------------------------------------------------------Parte de Rafa---------------*/
+.fondo {
+    padding: 0px;
+    width: 100%;
+}
+.color-fondo {
+    background-color: orange;
+    height: 500px;
+}
+.fondo-segundo {
+    background-color: #EEEDEC;
+}
+.fondo-tercero {
+    background-color: #393F60;
+}
+.personaje {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    align-content: center;
+}
+
+.titulo-descripcion {
+    color:white;
+   margin-left: 150px;
+    text-align: left;
+    text-transform: initial;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.titulo-descripcion-texto {
+    color:black;
+    margin-top: 60px;
+    margin-bottom: 400px;
+    text-transform: initial;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.descripcion {
+    color:white;
+    text-transform: initial;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 200px;
+    height: 50%px;
+    width: 30%;
+}
+
+.descripcion-texto {
+    color:grey;
+    text-transform: initial;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.formulario-texto {
+    color:black;
+    text-transform: initial;
+    font-size: 20px;
+    font-weight: bold;
+    width:100%;
+    height: 450px;
+}
+
+.puntos {
+    list-style: none;
+}
+
+.boton {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 450px;
+}
+
+.botoncito {
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+    padding: 10px 20px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 550px;
+}
+
+.botoncito-otro {
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.profesor {
+    height: 350px;
+    width: 350px;
+    top: 400%;
+    left: 60%;
+    position: absolute;
+}
+
+.espacio {
+    line-height: 0;
+}
+
+.contenedor-imagen {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.imagen-circular {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: orange;
+    border-radius: 50%;
+}
+.imagen-arriba{
+     top: 110px;
+}
+.imagen-abajo{
+    top: 250px;
+    left: 400px;
+}
+
+  .contenedor-texto  {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 50px;
+    
+  }
+  .contenedor-texto-form {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 2930px;
+    margin-left: 500px;
+    
+  }
+  .contenedor-texto li {
+    display: block; /* Esto hace que los elementos <p> se muestren uno debajo del otro */
+    margin-bottom: 10px; /* Esto agrega un espacio entre los elementos para mejorar la legibilidad */
+  }
+
+  .gancho {
+    color: red;
+    font-size: 25px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #131928;
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    padding: 10px;
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+}
+}
+
+/*--Vista celular--*/
+@media (max-width: 240px) {
+    
+    /*--menu--*/
+    .menu{
+        margin: 0;
+        padding: 0;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        top: 0px;
+        position: absolute;
+        left: 150Px;  
+    }
+    ul{
+        list-style-type:none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    /*----- section div-----*/
+    .tipos{
+        margin: 20px;
+        padding: 10px;
+       width: 96%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color:#F86F03 ; 
+    }
+
+    .personaje {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        align-items: center;
+        align-content: center;
+    }
+    
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        position: relative;
+    }
+    
+    }
